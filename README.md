@@ -44,7 +44,8 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 
 #### 1. Shema 
-![Osnutek](ER-diagram(Shema).jpg)
+![GitHub Logo](C:\Users\Asus\Desktop\Praktikum\ER-diagram(Shema).jpg)
+
 
 
 
