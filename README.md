@@ -44,12 +44,11 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 
 
-### Shema
-
-![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/Osnutek.jpg)
+### Shema (osnutek)
 ---
+![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/Osnutek.jpg)
 
-
+### ER diagram 
 
 
 
