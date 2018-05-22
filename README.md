@@ -1,18 +1,18 @@
 # Praktikum-I
 
 
-Naslov projekta:
+###Naslov projekta:
 Obrtnik
 
 
-Avtorji:
+###Avtorji:
 Tomaž Zajc,
 Marko Zmazek,
 Jure Turk,
 Dimitar Micevski,
 Luka Gričar
 
-Besedilo naloge:
+###Besedilo naloge:
 
 Načrtujte in izdelajte sistem, ki bo uporabnikov v pomoč pri iskanju obrtnikov ter pošiljanja poizvedb
 za želena obrtniška dela.
@@ -27,9 +27,9 @@ po razpoložljivih obrtnikih.
 Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 
-Mentor: Mitja Gradišnik
+###Mentor: Mitja Gradišnik
 
-Kazalo:
+###Kazalo:
 
 
 [Spletna stran](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
