@@ -50,5 +50,10 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 ### ER diagram 
 
+## Spletna stran
 
+
+## Implementacija
+
+## Uporaba
 
