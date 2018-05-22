@@ -30,5 +30,5 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 Mentor: Mitja Gradišnik
 
 
-
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
 Kazalo:
