@@ -46,6 +46,9 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 ## Shema
 ![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/Webp.net-resizeimage.jpg)
+![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/ER-diagram(Shema).jpg)
+
+
 
 
 
