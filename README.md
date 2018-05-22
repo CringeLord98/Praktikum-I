@@ -27,7 +27,7 @@ po razpoložljivih obrtnikih.
 Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 
-### Mentor: Mitja Gradišnik
+### Mentor: Mitja Gradišnik (Mičo)
 
 ### Kazalo:
 
