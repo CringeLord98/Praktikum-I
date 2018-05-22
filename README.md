@@ -6,11 +6,11 @@ Obrtnik
 
 
 ### Avtorji:
-Tomaž Zajc,
-Marko Zmazek,
-Jure Turk,
-Dimitar Micevski,
-Luka Gričar
+* Tomaž Zajc,
+* Marko Zmazek,
+* Jure Turk,
+* Dimitar Micevski,
+* Luka Gričar
 
 ### Besedilo naloge:
 
@@ -37,3 +37,14 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 [Podatkovna baza](https://github.com/Jure4321/Praktikum-I/tree/master/podatkovna%20baza)
 
 [Podatkovna baza](https://github.com/Jure4321/Praktikum-I/tree/master/porocilo)
+
+
+
+### Podatkovna baza 
+
+
+#### 1. Shema 
+![Osnutek](/ER-diagram(Shema).jpg)
+
+
+
