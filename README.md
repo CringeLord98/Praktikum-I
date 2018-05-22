@@ -6,10 +6,10 @@ Obrtnik
 
 
 Avtorji:
-Tomaž Zajc
-Marko Zmazek
-Jure Turk
-Dimitar Micevski
+Tomaž Zajc,
+Marko Zmazek,
+Jure Turk,
+Dimitar Micevski,
 Luka Gričar
 
 Besedilo naloge:
