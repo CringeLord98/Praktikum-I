@@ -31,6 +31,7 @@ Mentor: Mitja Gradišnik
 
 Kazalo:
 
-Spletna stran:
-[Spletna stran](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
 
+[Spletna stran](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
+[Podatkovna baza](https://github.com/Jure4321/Praktikum-I/tree/master/podatkovna%20baza)
+[Podatkovna baza](https://github.com/Jure4321/Praktikum-I/tree/master/porocilo)
