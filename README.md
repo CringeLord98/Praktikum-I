@@ -40,11 +40,11 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 
 
-### Podatkovna baza 
+## Podatkovna baza 
 
 
 
-## Shema
+### Shema
 
 ![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/Osnutek.jpg)
 
