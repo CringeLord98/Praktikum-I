@@ -30,5 +30,5 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 Mentor: Mitja Gradišnik
 
 
-[a link](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
+[a Spletna stran](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
 
