@@ -43,8 +43,8 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 ### Podatkovna baza 
 
 
-#### 1. Shema 
-![GitHub Logo](C:\Users\Asus\Desktop\Praktikum\ER-diagram(Shema).jpg)
+
+![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/ER-diagram(Shema).jpg)
 
 
 
