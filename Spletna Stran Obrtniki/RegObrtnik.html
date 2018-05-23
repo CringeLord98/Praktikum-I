@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="English" id="maxH">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moj Obrtnik | Domov</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Francois+One|Indie+Flower|Kaushan+Script|Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <section class="section-nav">
+        <div class="container-fluid">
+            <div class="topNav">
+                <div id="Webname">
+                    <h2><a href="Index.html">Moj </a>Obrtnik</h2>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="Index.html">Domov</a></li>
+                        <li><a href="Iskanje.html">Test2</a></li>
+                        <li><a href="Test3.html">Test3</a></li>
+                        <li><a href="Home.html">Social</a></li>
+                        <li><a href="Home.html">Tickets</a></li>
+                    </ul>
+                    <ul id="login-right">
+                        <li><a href="Login.html">Prijava</a></li>
+                        <li><a href="Reg.html">Registracija</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="LoginReg">
+        <div class="container-fluid" id="topRazmik">
+
+        </div>
+        <div class="RBox">
+            <div class="RUrazmik" style="background-color: #d34321"></div>
+            <div class="RBox-top" style="background-color: #d34321">
+                <center>
+                    <h5>Registracija</h5>
+                </center>
+            </div>
+            <form action="RegUporabnik" method="post">
+                <div class="RBox-mid">
+
+                    <input type="text" name="ime" placeholder="Ime" class="regText">
+                    <input type="text" name="priimek" placeholder="Priimek" class="regText">
+                    <input type="username" name="uporIme" placeholder="Uporabniško ime" class="regText">
+                    <input type="password" name="password" placeholder="Geslo" class="regText">
+                    <input type="password" name="password2" placeholder="Ponovi geslo" class="regText">
+                    <input type="tel" name="telefon" placeholder="Telefonska številka" class="regText">
+                    <input type="text" name="email" placeholder="Email naslov" class="regText">
+                    <p>
+                        Izbira slike profila:
+                    </p>
+                    <input type="file" name="profilka" class="regFile">
+                    <input type="text" name="trr" placeholder="TRR" class="regText">
+                </div>
+                <div class="RBox-bot">
+                    <center>
+                        <input type="submit" name="gumbRegUporabnik" value="Registriraj" class="gumbPrijavi" style="background-color: #d34321; border-color: #d34321">
+                    </center>
+                </div>
+            </form>
+
+
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="container-fluid">
+
+        </div>
+    </section>
+</body>
+
+</html>

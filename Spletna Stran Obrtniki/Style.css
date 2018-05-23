@@ -1,0 +1,431 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', serif;
+    color: black;
+    background-color: #efefef;
+
+}
+
+.section-nav {
+    background-color: #333;
+    border-bottom: 2px solid #0d5cd9;
+    padding: 0em;
+    margin: 0em;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topPic {
+    margin: 0;
+}
+
+.wrapper {
+    width: 85%;
+    background-color: white;
+    min-height: 60em;
+    margin: auto;
+    border-right: 1px solid rgba(13, 92, 217, 0.3);
+    border-left: 1px solid rgba(13, 92, 217, 0.3);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    height: 3em;
+    margin: auto;
+    border-top: 2px solid #0d5cd9;
+}
+
+#Webname {
+    color: white;
+    padding-top: 0.3em;
+    width: 20%;
+    float: left;
+    text-decoration: bold;
+    min-width: 350px;
+}
+
+#Webname a {
+    text-decoration: none;
+    color: #0d5cd9;
+}
+
+#Webname a:hover {
+    color: #3375dd;
+    transition: .1s;
+}
+
+.Blue {
+    color: #0d5cd9;
+
+}
+
+.Grey {
+    color: #333
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-left: 10em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    overflow: hidden;
+    background-color: #333;
+
+
+}
+
+.nav ul li {
+    float: left;
+    padding-bottom: 0px;
+
+}
+
+
+
+.nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.nav ul li a:hover {
+    background-color: #414141;
+    transition: 0.25s;
+}
+
+#login-right {
+    float: right;
+    width: auto;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#onSite {
+    cursor: default;
+    color: White;
+    background-color: #0d5cd9;
+}
+
+
+#Top-img {
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-image: url(Imgs/Woo.png);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 2px solid #0d5cd9;
+}
+
+
+
+#Top-img-text {
+    padding-top: 250px;
+    margin: auto;
+    width: 50%;
+}
+
+
+#Top-img-text h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5em;
+    position: relative;
+    text-shadow: 4px 4px 2px #000000;
+}
+
+
+
+#topRazmik {
+    height: 5em;
+    width: inherit;
+    background-color: inherit;
+
+}
+
+#Search {
+    width: 100%;
+    border-top: 1px solid #0d5cd9;
+    border-bottom: 1px solid #0d5cd9;
+    border-radius: 5px;
+
+}
+
+.MegaSearch {
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+input[class=megaSearchF] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('Imgs/searchicon.png');
+    background-size: contain;
+    background-size: 30px 30px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: 0.5s;
+
+}
+
+input[class=megaSearchF]:focus {
+    box-shadow: 2px 2px 4px #333;
+}
+
+
+.topSearchText {
+
+    height: 4em;
+    width: 100%;
+}
+
+.topSearchText h4 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 2em;
+    color: #333;
+
+}
+
+/* -------------------------
+           Iskanje
+   ------------------------- */
+
+#advancedSearch {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+#advancedDropdown {
+    width: 15%;
+    float: left;
+    border: 0.5px solid black;
+    margin-top: 1em;
+    margin-right: 15px;
+
+}
+
+.form-group {
+    width: 70%;
+    margin: auto;
+
+}
+
+#searchRazmik {
+    height: 4em;
+    width: inherit;
+    color: blue;
+}
+
+#advancedButton {
+    float: right;
+    margin-top: 1em;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    width: 100px;
+}
+
+/* -------------------------
+       Login & Register
+   ------------------------- */
+
+.LoginReg {
+    width: 100%;
+    background-image: url(Imgs/ToolsPNG80.png);
+    min-height: 54.5em;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.LBox {
+    width: 30%;
+    margin: auto;
+    height: 35em;
+
+    border-radius: 0.4px;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 4px 4px 8px #333;
+
+}
+
+.RBox {
+    width: 30%;
+    margin: auto;
+    height: 45em;
+
+    border-radius: 0.4px;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 4px 4px 8px #333;
+}
+
+.RIzberi {
+    width: 40%;
+    margin: auto;
+}
+
+.RIzberi-mid {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+
+
+}
+
+.IzberiU {
+    width: 20%;
+    height: auto;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+
+}
+
+.IzberiO {
+    width: 20%;
+    height: auto;
+    background-color: white;
+    border-right: 1px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+
+
+}
+
+
+.LBox-top {
+    min-height: 3.5em;
+    width: 100%;
+    background-color: #0d5cd9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.RBox-top {
+    min-height: 3.5em;
+    width: 100%;
+    background-color: #2ba32b;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.LBox-top h5 {
+    font-size: 2em;
+    color: white;
+}
+
+.Lrazmik {
+    height: 1em;
+    background-color: #0d5cd9;
+}
+
+.RUrazmik {
+    height: 1em;
+    background-color: #2ba32b;
+}
+
+.RBox-top h5 {
+    font-size: 2em;
+    color: white;
+}
+
+.LBox-mid {
+    width: auto;
+    height: auto;
+    margin: 2em;
+    margin-left: 7.5em;
+
+}
+
+.RBox-mid {
+    width: auto;
+    height: auto;
+    margin: 2em 2em 2em 2em;
+}
+
+.LBox-bot {
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+.gumbPrijavi {
+    background-color: #0d5cd9;
+    width: 50%;
+    height: 4em;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #0d5cd9;
+
+}
+
+#gumbNavadni {
+    background-color: #2ba32b;
+    border: 1px solid #2ba32b;
+}
+
+#gumbObrtnik {
+    background-color: #d34321;
+    border: 1px solid #d34321;
+}
+
+.gumbPrijavi:hover {
+    background-color: #3071d8;
+    box-shadow: 2px 2px 8px #333;
+
+}
+
+.RBox-mid p {
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+.LTBox {
+    width: 80%;
+    height: 3em;
+    transition: 0.2s;
+
+}
+
+#izberiProfilkaM {
+    margin-top: 0;
+}
+
+.LTBox:focus {
+    box-shadow: 2px 2px 2px #333;
+
+}
+
+input[class=regText] {
+    width: 50%;
+    margin: 1em 3em auto 3em;
+}
+
+input[class=regFile] {
+    width: 100%;
+    margin: 0em 3em auto 3em;
+}
+
+.RBox-bot {
+
+    width: 100%;
+    height: auto;
+    margin-top: 4em;
+
+}
