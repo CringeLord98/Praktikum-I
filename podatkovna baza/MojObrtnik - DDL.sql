@@ -60,15 +60,15 @@ create table Slika(
 create table Ocena(
 	idOcena int not null auto_increment primary key,
     Ocena int not null,
-    Storitev_idStoritev int not null,
-    Uporabnik_idUporabnik int not null
+    Storitev_idStoritev int,
+    Uporabnik_idUporabnik int
 );
 
 create table Komentar(
 	idKomentar int not null auto_increment primary key,
     Komentar varchar(1000) not null,
-    Storitev_idStoritev int not null,
-    Uporabnik_idUporabnik int not null
+    Storitev_idStoritev int,
+    Uporabnik_idUporabnik int
 );
 
 create table Uporabnik(
@@ -100,13 +100,20 @@ create table Stanje_Narocila(
     Stanje_Narocila varchar(45) not null
 );
 
+ALTER TABLE Naslov
+ADD CONSTRAINT FK_Naslov_Obrtnik
+FOREIGN KEY (Obrtnik_idObrtnik) REFERENCES Obrtnik(idObrtnik)
+ON DELETE CASCADE; 
+
 ALTER TABLE Slika
 ADD CONSTRAINT FK_Slika_Storitev
-FOREIGN KEY (Storitev_idStoritev) REFERENCES Storitev(idStoritev); 
+FOREIGN KEY (Storitev_idStoritev) REFERENCES Storitev(idStoritev)
+ON DELETE CASCADE; 
 
 ALTER TABLE Storitev
 ADD CONSTRAINT FK_Storitev_Obrtnik
-FOREIGN KEY (Obrtnik_idObrtnik) REFERENCES Obrtnik(idObrtnik); 
+FOREIGN KEY (Obrtnik_idObrtnik) REFERENCES Obrtnik(idObrtnik)
+ON DELETE CASCADE; 
 
 ALTER TABLE Storitev
 ADD CONSTRAINT FK_Storitev_Kategorija
@@ -114,7 +121,8 @@ FOREIGN KEY (Kategorija_idKategorija) REFERENCES Kategorija(idKategorija);
 
 ALTER TABLE Ocena
 ADD CONSTRAINT FK_Ocena_Storitev
-FOREIGN KEY (Storitev_idStoritev) REFERENCES Storitev(idStoritev); 
+FOREIGN KEY (Storitev_idStoritev) REFERENCES Storitev(idStoritev)
+ON DELETE CASCADE; 
 
 ALTER TABLE Ocena
 ADD CONSTRAINT FK_Ocena_Uporabnik
@@ -122,7 +130,8 @@ FOREIGN KEY (Uporabnik_idUporabnik) REFERENCES Uporabnik(idUporabnik);
 
 ALTER TABLE Komentar
 ADD CONSTRAINT FK_Komentar_Storitev
-FOREIGN KEY (Storitev_idStoritev) REFERENCES Storitev(idStoritev); 
+FOREIGN KEY (Storitev_idStoritev) REFERENCES Storitev(idStoritev)
+ON DELETE CASCADE; 
 
 ALTER TABLE Komentar
 ADD CONSTRAINT FK_Komentar_Uporabnik
@@ -130,7 +139,8 @@ FOREIGN KEY (Uporabnik_idUporabnik) REFERENCES Uporabnik(idUporabnik);
 
 ALTER TABLE Narocilo
 ADD CONSTRAINT FK_Narocilo_Uporabnik
-FOREIGN KEY (Uporabnik_idUporabnik) REFERENCES Uporabnik(idUporabnik);
+FOREIGN KEY (Uporabnik_idUporabnik) REFERENCES Uporabnik(idUporabnik)
+ON DELETE CASCADE;
 
 ALTER TABLE Narocilo
 ADD CONSTRAINT FK_Narocilo_Stanje_Narocila
@@ -138,4 +148,5 @@ FOREIGN KEY (Stanje_Narocila_idStanje_Narocila) REFERENCES Stanje_Narocila(idSta
 
 ALTER TABLE Narocilo
 ADD CONSTRAINT FK_Narocilo_Storitev
-FOREIGN KEY (Storitev_idStoritev) REFERENCES Storitev(idStoritev);
+FOREIGN KEY (Storitev_idStoritev) REFERENCES Storitev(idStoritev)
+ON DELETE CASCADE;
