@@ -231,9 +231,10 @@ input[class=megaSearchF] {
 #advancedButton {
     float: right;
     margin-top: 1em;
-    background-color: blue;
+    background-color: #0d5cd9;
     padding: 10px;
     color: white;
     width: 100px;
+    font-family: 'Open Sans', sans-serif;
 }
 
