@@ -192,3 +192,48 @@ input[class=megaSearchF] {
     color: #333;
 
 }
+
+
+
+
+
+
+/******************************************************************************/
+
+#advancedSearch {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    
+}
+
+#advancedDropdown {
+    width: 15%;
+    float: left;
+    border: 0.5px solid black;
+    margin-top: 1em;
+    margin-right: 15px;
+    
+}
+
+.form-group {
+    width: 70%;
+    margin: auto;
+    
+}
+
+#searchRazmik {
+    height: 4em;
+    width: inherit;
+    color: blue;
+}
+
+#advancedButton {
+    float: right;
+    margin-top: 1em;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    width: 100px;
+}
+
