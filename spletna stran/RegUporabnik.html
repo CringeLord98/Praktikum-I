@@ -32,7 +32,7 @@
                         <li><a href="Home.html">Tickets</a></li>
                     </ul>
                     <ul id="login-right">
-                        <li><a id="onSite">Prijava</a></li>
+                        <li><a href="Login.html">Prijava</a></li>
                         <li><a href="Reg.html">Registracija</a></li>
                     </ul>
                 </div>
@@ -44,38 +44,42 @@
         <div class="container-fluid" id="topRazmik">
 
         </div>
-        <div class="LBox">
-            <div class="Lrazmik"></div>
-            <div class="LBox-top">
-
-                <h5>
-                    <center>
-                        Prijava
-                    </center>
-                </h5>
-
-            </div>
-            <div class="LBox-mid">
-                <br>
-                <h5>Uporabniško ime:</h5>
-                <input type="username" name="UporabniskoIme" class="LTBox">
-                <div style="margin-top: 50px;"></div>
-                <h5>Geslo:</h5>
-                <input type="password" name="Password" class="LTBox">
-                <div style="margin-top: 100px;"></div>
-            </div>
-
-            <div class="LBox-bot">
+        <div class="RBox">
+            <div class="RUrazmik"></div>
+            <div class="RBox-top">
                 <center>
-                    <input type="submit" name="Login" value="Prijavi" class="gumbPrijavi">
+                    <h5>Registracija</h5>
                 </center>
             </div>
+            <form action="RegUporabnik" method="post">
+                <div class="RBox-mid">
+
+                    <input type="text" name="ime" placeholder="Ime" class="regText">
+                    <input type="text" name="priimek" placeholder="Priimek" class="regText">
+                    <input type="username" name="uporIme" placeholder="Uporabniško ime" class="regText">
+                    <input type="password" name="password" placeholder="Geslo" class="regText">
+                    <input type="password" name="password2" placeholder="Ponovi geslo" class="regText">
+                    <input type="tel" name="telefon" placeholder="Telefonska številka" class="regText">
+                    <input type="text" name="email" placeholder="Email naslov" class="regText">
+                    <p>
+                        Izbira slike profila:
+                    </p>
+                    <input type="file" name="profilka" class="regFile">
+                </div>
+                <div class="RBox-bot">
+                    <center>
+                        <input type="submit" name="gumbRegUporabnik" value="Registriraj" class="gumbPrijavi" style="background-color: #2ba32b; border-color: #2ba32b">
+                    </center>
+                </div>
+            </form>
 
 
         </div>
     </section>
     <section class="footer">
+        <div class="container-fluid">
 
+        </div>
     </section>
 </body>
 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="English" id="maxH">
 
@@ -26,13 +27,13 @@
                 <div class="nav">
                     <ul>
                         <li><a href="Index.html">Domov</a></li>
-                        <li><a href="Iskanje.html">Test2</a></li>
+                        <li><a id="onSite">Iskanje</a></li>
                         <li><a href="Test3.html">Test3</a></li>
                         <li><a href="Home.html">Social</a></li>
                         <li><a href="Home.html">Tickets</a></li>
                     </ul>
                     <ul id="login-right">
-                        <li><a id="onSite">Prijava</a></li>
+                        <li><a href="Login.html">Prijava</a></li>
                         <li><a href="Reg.html">Registracija</a></li>
                     </ul>
                 </div>
@@ -40,42 +41,45 @@
 
         </div>
     </section>
-    <section class="LoginReg">
-        <div class="container-fluid" id="topRazmik">
+
+    <section class="wrapper">
+        <div class="container" id="topRazmik">
 
         </div>
-        <div class="LBox">
-            <div class="Lrazmik"></div>
-            <div class="LBox-top">
-
-                <h5>
-                    <center>
-                        Prijava
-                    </center>
-                </h5>
-
-            </div>
-            <div class="LBox-mid">
-                <br>
-                <h5>Uporabniško ime:</h5>
-                <input type="username" name="UporabniskoIme" class="LTBox">
-                <div style="margin-top: 50px;"></div>
-                <h5>Geslo:</h5>
-                <input type="password" name="Password" class="LTBox">
-                <div style="margin-top: 100px;"></div>
-            </div>
-
-            <div class="LBox-bot">
+        <div class="container">
+            <div class="topSearchText">
                 <center>
-                    <input type="submit" name="Login" value="Prijavi" class="gumbPrijavi">
+                    <h4>Iskalnik</h4>
                 </center>
             </div>
+        </div>
+        <div class="container-fluid">
+            <div class="form-group">
+                <form>
+                    <input type="text" class="form-control" id="advancedSearch" placeholder="Iskanje" method="get">
+                    <input type="text" class="form-control" id="advancedDropdown" placeholder="Kategorije" list="Kategorije" method="get" />
+                    <datalist id="Kategorije">
+                            <option>Kovač</option>
+                            <option>Pleskar</option>
+                            <option>Mehanik</option>
+                            <option>Lesar</option>
+                        </datalist>
 
-
+                    <input type="text" class="form-control" id="advancedDropdown" placeholder="Sortiraj po:" list="Priljubljenost" method="get">
+                    <datalist id="Priljubljenost">
+                            <option>Najnovejši najprej</option>
+                            <option>Najstarejši najprej</option>
+                            <option>Po priljubljenosti</option>
+                        </datalist>
+                    <button type="submit" class="btn btn-default" id="advancedButton">Išči</button>
+                </form>
+            </div>
         </div>
     </section>
     <section class="footer">
+        <div class="container-fluid">
 
+        </div>
     </section>
 </body>
 
