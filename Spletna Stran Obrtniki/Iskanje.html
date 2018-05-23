@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="English" id="maxH">
 
@@ -41,43 +40,101 @@
 
         </div>
     </section>
+    <section class="iskalnik">
+        <div class="iskalnik-mid">
+            <form action="Iskalnik.html" method="get">
+                <div class="IskalnikSearch">
+                    <center>
+                        <input type="text" name="search" placeholder="Kategorija.." class="IskalnikSearchF" style="margin-right: 5em;">
+                        <input type="text" name="search" placeholder="Kraj.." class="IskalnikSearchF" style="background-image: url('Imgs/locaticon.png');">
+                    </center>
+                </div>
+                <div class="row" id="prviFilter">
+                    <div class="prviSelect">
+                        <center>
+                            <h5>Priljubljenost</h5>
+                        </center>
+                        <select class="selectStil">
+                          <option value="volvo">Volvo</option>
+                          <option value="saab">Saab</option>
+                          <option value="opel">Opel</option>
+                          <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <div class="prviSelect">
+                        <center>
+                            <h5>Datum</h5>
+                        </center>
+                        <select class="selectStil">
+                          <option value="volvo">Volvo</option>
+                          <option value="saab">Saab</option>
+                          <option value="opel">Opel</option>
+                          <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <div class="prviSelect">
+                        <center>
+                            <h5>Datum</h5>
+                        </center>
+                        <select class="selectStil">
+                          <option value="volvo">Volvo</option>
+                          <option value="saab">Saab</option>
+                          <option value="opel">Opel</option>
+                          <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <div style="width: 33%;"></div>
+                    <div class="prviSelect" style="margin: 2em;">
+                        <input type="submit" value="Išči" class="GiskalnikSearch">
+                    </div>
+                </div>
 
-    <section class="wrapper">
-        <div class="container" id="topRazmik">
-
-        </div>
-        <div class="container">
-            <div class="topSearchText">
-                <center>
-                    <h4>Iskalnik</h4>
-                </center>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="form-group">
-                <form>
-                    <input type="text" class="form-control" id="advancedSearch" placeholder="Iskanje" method="get">
-                    <input type="text" class="form-control" id="advancedDropdown" placeholder="Kategorije" list="Kategorije" method="get" />
-                    <datalist id="Kategorije">
-                            <option>Kovač</option>
-                            <option>Pleskar</option>
-                            <option>Mehanik</option>
-                            <option>Lesar</option>
-                        </datalist>
-
-                    <input type="text" class="form-control" id="advancedDropdown" placeholder="Sortiraj po:" list="Priljubljenost" method="get">
-                    <datalist id="Priljubljenost">
-                            <option>Najnovejši najprej</option>
-                            <option>Najstarejši najprej</option>
-                            <option>Po priljubljenosti</option>
-                        </datalist>
-                    <button type="submit" class="btn btn-default" id="advancedButton">Išči</button>
-                </form>
-            </div>
+            </form>
         </div>
     </section>
-    <section class="footer">
-        <div class="container-fluid">
+    <section class="wrapper" style="border-top: 1px solid rgba(13, 92, 217, 0.3);">
+        <div class="container-fluid" style="margin-bo">
+            <div class="Objava">
+                <div class="Objava-top">
+                    <h4>
+                        Mizarstvo Marko
+                    </h4>
+                </div>
+                <div class="Objava-mid">
+                    <div class="Objava-mid-info">
+                        <b class="Blue">Kategorija:</b> Mizarstvo <b class="Blue">Lokacija:</b> Maribor
+                    </div>
+                </div>
+                <div style="height: 16em;">
+                    <div class="Objava-opis" style="float: left;">
+                        <div style="margin: 3em;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam molestiae alias voluptates maxime fugit, officiis culpa facilis distinctio atque aliquid, similique magni tempora consectetur doloremque facere laboriosam amet obcaecati, earum.
+                        </div>
+                    </div>
+                    <div class="Objava-slika" style="float: left;">
+                        <div class="ObjavaPhoto">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Objava-bot">
+                    <div class="Objava-bot-opis">
+                        <b class="Blue">Avtor:</b> Jure123 <b class="Blue">Datum:</b> 21.5.2017
+                        <input type="submit" name="gmbPodrobno" value="Podrobnosti" class="GiskalnikSearch" style="float: right;">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="container" id="topRazmik">
+
+            </div>
+
+
+        </div>
+    </section>
+    <section class="footer ">
+        <div class="container-fluid ">
 
         </div>
     </section>
