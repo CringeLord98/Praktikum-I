@@ -27,10 +27,10 @@ create table Obrtnik(
 	idObrtnik int not null auto_increment primary key,
     Ime varchar(45) not null,
     Priimek varchar(45) not null,
-    TRR int not null,
+    TRR varchar(45) not null,
     Email varchar(320) not null,
     Telefon varchar(45) not null,
-    Profilna_slika blob,
+    Profilna_slika longblob,
     Opis varchar(5000),
     Username varchar(45) not null,
     Password varchar(45) not null
@@ -53,7 +53,7 @@ create table Kategorija(
 
 create table Slika(
 	idSlika int not null auto_increment primary key,
-    Slika blob not null,
+    Slika longblob not null,
     Storitev_idStoritev int not null
 );
 
@@ -76,7 +76,7 @@ create table Uporabnik(
     Ime varchar(45) not null,
     Priimek varchar(45) not null,
     Email varchar(320) not null,
-    Profilna_slika blob,
+    Profilna_slika longblob,
     Telefon varchar(45),
     Username varchar(45) not null,
     Password varchar(45) not null
