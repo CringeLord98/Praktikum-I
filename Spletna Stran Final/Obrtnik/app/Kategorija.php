@@ -11,4 +11,7 @@ class Kategorija extends Model
     public function kategorija_storitev() {
         return $this->hasMany('App/Storitev');
     }
+    
+    
+    anus
 }
