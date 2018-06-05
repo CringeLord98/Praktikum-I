@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Narocilo;
 
 class NarocilaController extends Controller
 {
@@ -13,7 +14,8 @@ class NarocilaController extends Controller
      */
     public function index()
     {
-        return view('user.narocila');
+        $narocila = Narocilo::all();
+        return view('user.narocila')->with('narocila', $narocila);
     }
 
     /**
@@ -34,7 +36,9 @@ class NarocilaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('user.novonarocilo');
+        $name = $request->input('name');
+            return $name;
     }
 
     /**
@@ -45,7 +49,8 @@ class NarocilaController extends Controller
      */
     public function show($id)
     {
-        //
+        $narocilo = narocilo::find($id);
+        return view('user.narocilo')->with('narocilo',$narocilo);
     }
 
     /**
@@ -79,6 +84,8 @@ class NarocilaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $narocilo = Narocilo::find($id);
+        $narocilo->delete();
+        return redirect('/narocila');
     }
 }
