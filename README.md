@@ -64,10 +64,11 @@ Nato kot administrator odprite datoteko "hosts" ki se nahaja na direktoriju: (C:
 127.0.0.1 localhost
 127.0.0.1 obrtnik.test
 ```
+
 Zaženite program XAMPP in poženite Apache in mySQL procesa z klikom na gumb "Start".
-(https://github.com/Jure4321/Praktikum-I/tree/master/XAMPP.png)
+![Slika](https://github.com/Jure4321/Praktikum-I/tree/master/XAMPP.png)
 
-
+Dostopajte do spletne strani preko URL naslova: obrtnik.test
 
 ## Podatkovna baza 
 
