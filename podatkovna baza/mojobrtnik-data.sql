@@ -1,0 +1,42 @@
+use mojobrtnik;
+
+insert into stanje_narocila values(null, 'V čakanju');
+insert into stanje_narocila values(null, 'Sprejeto');
+insert into stanje_narocila values(null, 'Zavrnjeno');
+
+insert into regija values(null, 'Osrednjeslovenska');
+insert into regija values(null, 'Podravska');
+insert into regija values(null, 'Savinjska');
+insert into regija values(null, 'Pomurska');
+insert into regija values(null, 'Gorenjska');
+insert into regija values(null, 'Koroška');
+insert into regija values(null, 'Goriška');
+insert into regija values(null, 'Jugo-vzhodna Slovenija');
+insert into regija values(null, 'Primorsko-Notranjska');
+insert into regija values(null, 'Obalno-kraška');
+insert into regija values(null, 'Zasavska');
+insert into regija values(null, 'Posavska');
+
+insert into kategorija values(null, 'Frizerstvo');
+insert into kategorija values(null, 'Kovaštvo');
+insert into kategorija values(null, 'Avtoličarstvo');
+insert into kategorija values(null, 'Čiščenje');
+insert into kategorija values(null, 'Dimnikarstvo');
+insert into kategorija values(null, 'Elektro inštalacije');
+insert into kategorija values(null, 'Fasaderstvo');
+insert into kategorija values(null, 'Gradbeništvo');
+insert into kategorija values(null, 'Kamnoseštvo');
+insert into kategorija values(null, 'Tesarstvo');
+insert into kategorija values(null, 'Steklarstvo');
+insert into kategorija values(null, 'Vodovodarstvo');
+insert into kategorija values(null, 'Fotografija');
+insert into kategorija values(null, 'Kozmetičarstvo');
+insert into kategorija values(null, 'Optika');
+insert into kategorija values(null, 'Pogrebne storitve');
+insert into kategorija values(null, 'Šoferstvo');
+insert into kategorija values(null, 'Urarstvo');
+insert into kategorija values(null, 'Vrtnarstvo');
+insert into kategorija values(null, 'Vulkanizerstvo');
+insert into kategorija values(null, 'Kovinarstvo');
+insert into kategorija values(null, 'Prevozništvo');
+insert into kategorija values(null, 'Računovodstvo');
