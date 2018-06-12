@@ -66,7 +66,8 @@ Nato kot administrator odprite datoteko "hosts" ki se nahaja na direktoriju: (C:
 ```
 
 Zaženite program XAMPP in poženite Apache in mySQL procesa z klikom na gumb "Start".
-![Slika](https://github.com/Jure4321/Praktikum-I/tree/master/XAMPP.png)
+![Slika](https://github.com/Jure4321/Praktikum-I/blob/master/XAMPP.png)
+
 
 Dostopajte do spletne strani preko URL naslova: obrtnik.test
 
