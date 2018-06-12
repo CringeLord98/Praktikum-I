@@ -50,7 +50,7 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 ### ER diagram 
 ---
-![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/ER-diagram.png)
+![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/35156807_1997118590311821_7525599961853984768_n.png)
 ## Spletna stran
 
 
