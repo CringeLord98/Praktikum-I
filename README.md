@@ -14,7 +14,8 @@
 ### Kazalo:
 
 [Besedilo naloge](#besedilo-naloge)
-[Zahteve in namestitev v sistem](#zahteve-in-namestitev]
+
+[Zahteve in namestitev v sistem](#zahteve-in-namestitev)
 
 [Spletna stran](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
 
@@ -45,7 +46,8 @@ Za namestitev potrebujete:
 - XAMPP ali drugo podobno orodje
 - Laravel
 
-V direktoriju XAMPP poiščite mapo "htdocs" (default path:C:\xampp\htdocs) in vanj položite celoten direktorij MojObrtnik. V istem direktoriju XAMPP-a poiščite mapo "apache", nato odprite mapo "conf" in nazadnje odprite mapo "extra" (default path:C:\xampp\apache\conf\extra). Odprite datoteko "httpd-vhosts.conf" in dodajte: ```<VirtualHost *:80>
+V direktoriju XAMPP poiščite mapo "htdocs" (default path:C:\xampp\htdocs) in vanj položite celoten direktorij MojObrtnik. V istem direktoriju XAMPP-a poiščite mapo "apache", nato odprite mapo "conf" in nazadnje odprite mapo "extra" (default path:C:\xampp\apache\conf\extra). Odprite datoteko "httpd-vhosts.conf" in dodajte: 
+```<VirtualHost *:80>
     DocumentRoot "C:/xampp/htdocs/Obrtnik/public"
     ServerName obrtnik.test
 </VirtualHost>
@@ -53,7 +55,8 @@ V direktoriju XAMPP poiščite mapo "htdocs" (default path:C:\xampp\htdocs) in v
 <VirtualHost *:80>
     DocumentRoot "C:/xampp/htdocs"
     ServerName localhost
-</VirtualHost> ```
+</VirtualHost> 
+```
 
 ## Podatkovna baza 
 
