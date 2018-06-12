@@ -2,8 +2,7 @@
 
 
 ### Naslov projekta:
-Obrtnik
-
+ Moj Obrtnik
 
 ### Avtorji:
 * Tomaž Zajc,
@@ -11,6 +10,16 @@ Obrtnik
 * Jure Turk,
 * Dimitar Micevski,
 * Luka Gričar
+
+### Kazalo:
+
+[Besedilo naloge](#besedilo-naloge)
+
+[Spletna stran](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
+
+[Podatkovna baza](https://github.com/Jure4321/Praktikum-I/tree/master/podatkovna%20baza)
+
+[Podatkovna baza](#podatkovna-baza)
 
 ### Besedilo naloge:
 
@@ -29,14 +38,7 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 ### Mentor: Mitja Gradišnik 
 
-### Kazalo:
 
-
-[Spletna stran](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
-
-[Podatkovna baza](https://github.com/Jure4321/Praktikum-I/tree/master/podatkovna%20baza)
-
-[Podatkovna baza](https://github.com/Jure4321/Praktikum-I/tree/master/porocilo)
 
 
 
