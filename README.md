@@ -4,24 +4,17 @@
 ### Naslov projekta:
  Moj Obrtnik
 
-### Avtorji:
-* Tomaž Zajc,
-* Marko Zmazek,
-* Jure Turk,
-* Dimitar Micevski,
-* Luka Gričar
-
 ### Kazalo:
 
 [Besedilo naloge](#besedilo-naloge)
 
+[Verzije in funkcionalnosti](#verzije-in-funkcionalnosti)
+
 [Zahteve in namestitev v sistem](#zahteve-in-namestitev)
 
-[Spletna stran](https://github.com/Jure4321/Praktikum-I/tree/master/spletna%20stran)
-
-[Podatkovna baza](https://github.com/Jure4321/Praktikum-I/tree/master/podatkovna%20baza)
-
 [Podatkovna baza](#podatkovna-baza)
+
+[Spletna stran](#spletna-stran)
 
 ### Besedilo naloge:
 
@@ -40,6 +33,16 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 
 ### Mentor: Mitja Gradišnik 
 
+## Verzije in funkcionalnosti
+
+| Verzija           | Funkcionalnosti|
+| ----------------- |------------------------------|
+| `1.0`             | `- Povezave med posameznimi stranmi, dodelana podatkovna baza`                     |
+| `2.0`             | `- Implementacija registracije in vpisa`                                           |
+| `3.0`             | `- Implementacija objavljanja storitev in naročanja`                               |
+| `4.0`             | `- Implementacija iskalnika in urejanje profila in storitve`                       |
+| `5.0`             | `- Implementacija komentarjev in ocen`                                             |
+| `6.0`             | `- Zadnji popravki in testirana delujoča finalna verzija z vsemi funkcionalnostmi` |
 
 ## Zahteve in namestitev:
 Za namestitev potrebujete:
@@ -73,19 +76,20 @@ Dostopajte do spletne strani preko URL naslova: obrtnik.test
 
 ## Podatkovna baza 
 
-
-
-### Shema (osnutek)
----
-![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/Osnutek.jpg)
-
 ### ER diagram 
 ---
 ![1. Shema](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/35156807_1997118590311821_7525599961853984768_n.png)
+
 ## Spletna stran
 
 
 ## Implementacija
 
 ## Uporaba
+
+## Avtorji:
+
+[<img alt="Tomaž Zajc" src="https://avatars3.githubusercontent.com/u/39370620?s=400&v=4" width="117">](https://github.com/Muziiix) |[<img alt="Marko Zmazek" src="https://avatars0.githubusercontent.com/u/39406652?s=400&v=4" width="117">](https://github.com/zmazk123) |[<img alt="Jure Turk" src="https://avatars3.githubusercontent.com/u/39335691?s=400&v=4" width="117">](https://github.com/Jure4321) |[<img alt="Dimitar Micevski" src="https://avatars1.githubusercontent.com/u/39406660?s=400&v=4" width="117">](https://github.com/DimitarMicevski) |[<img alt="Luka Gričar" src="https://avatars2.githubusercontent.com/u/33715913?s=400&v=4" width="117">](https://github.com/luks104) |
+:---: |:---: |:---: |:---: |:---: |
+[Tomaž Zajc](https://github.com/Muziiix) |[Marko Zmazek](https://github.com/zmazk123) |[Jure Turk](https://github.com/Jure4321) |[Dimitar Micevski](https://github.com/DimitarMicevski) |[Luka Gričar](https://github.com/luks104)
 
