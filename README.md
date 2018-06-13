@@ -3,6 +3,8 @@
 
 ### Naslov projekta:
  Moj Obrtnik
+ 
+### Mentor: Mitja Gradišnik 
 
 ### Kazalo:
 
@@ -16,7 +18,7 @@
 
 [Spletna stran](#spletna-stran)
 
-### Besedilo naloge:
+### Besedilo naloge
 
 Načrtujte in izdelajte sistem, ki bo uporabnikov v pomoč pri iskanju obrtnikov ter pošiljanja poizvedb
 za želena obrtniška dela.
@@ -29,9 +31,7 @@ odjemalcem portala omogočite komentiranje storitev obrtnikov.
 Da bi lahko uporabniki portala lažje našli ustreznega obrtnika, implementirajte tudi napredno iskanje
 po razpoložljivih obrtnikih.
 Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
-
-
-### Mentor: Mitja Gradišnik 
+ 
 
 ## Verzije in funkcionalnosti
 
@@ -44,7 +44,7 @@ Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
 | `5.0`             | `- Implementacija komentarjev in ocen`                                             |
 | `6.0`             | `- Zadnji popravki in testirana delujoča finalna verzija z vsemi funkcionalnostmi` |
 
-## Zahteve in namestitev:
+## Zahteve in namestitev
 Za namestitev potrebujete:
 - XAMPP ali drugo podobno orodje
 - Laravel
@@ -69,7 +69,19 @@ Nato kot administrator odprite datoteko "hosts" ki se nahaja na direktoriju: (C:
 ```
 
 Zaženite program XAMPP in poženite Apache in mySQL procesa z klikom na gumb "Start".
+
 ![Slika](https://github.com/Jure4321/Praktikum-I/blob/master/XAMPP.png)
+
+
+Dostopajte do podatkovne baze na spletnem naslovu (http://localhost/phpmyadmin) in naredite novo podatkovno bazo poimenovano "mojobrtnik".
+
+![SlikaBaza](https://github.com/Jure4321/Praktikum-I/blob/master/kreiranje_baze.png)
+
+Iz repositorija v mapi "podatkovna baza" prenesite datoteko "mojobrtnik.sql" in jo shranite na željeno mesto.
+
+V levem stolpcu izberite kreirano bazo ("mojobrtnik") in izberite "Uvozi" v zgornjem navigacijskem meniju. Datoteko "mojobrtnik.sql", ki ste jo prenesli v prejšnem koraku izberite z pomočjo gumba "Izberite datoteko". Nazadnje še poženete skripto z pomočjo gumba "Izvedi" v spodnjem delu strani.
+
+![SlikaBazaVnos](https://github.com/Jure4321/Praktikum-I/blob/master/skripta.png)
 
 
 Dostopajte do spletne strani preko URL naslova: obrtnik.test
@@ -83,11 +95,11 @@ Dostopajte do spletne strani preko URL naslova: obrtnik.test
 ## Spletna stran
 
 
-## Implementacija
 
-## Uporaba
 
-## Avtorji:
+### Uporaba
+
+## Avtorji
 
 [<img alt="Tomaž Zajc" src="https://avatars3.githubusercontent.com/u/39370620?s=400&v=4" width="117">](https://github.com/Muziiix) |[<img alt="Marko Zmazek" src="https://avatars0.githubusercontent.com/u/39406652?s=400&v=4" width="117">](https://github.com/zmazk123) |[<img alt="Jure Turk" src="https://avatars3.githubusercontent.com/u/39335691?s=400&v=4" width="117">](https://github.com/Jure4321) |[<img alt="Dimitar Micevski" src="https://avatars1.githubusercontent.com/u/39406660?s=400&v=4" width="117">](https://github.com/DimitarMicevski) |[<img alt="Luka Gričar" src="https://avatars2.githubusercontent.com/u/33715913?s=400&v=4" width="117">](https://github.com/luks104) |
 :---: |:---: |:---: |:---: |:---: |
