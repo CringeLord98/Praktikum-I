@@ -21,12 +21,16 @@ class ProfileController extends Controller
     }
     public function index(){
         $regije = Regija::all();
-        return view('user.profileSettings')->with('regije',$regije);
+        $user_id = auth()->user()->id;
+        $user = User::find($user_id);
+        $regija_id=$user->regija_id;
+        return view('user.profileSettings')->with(array('regije'=>$regije,'u_regija_id'=>$regija_id));
     }
     public function profile(){
         $user_id = auth()->user()->id;
         $user = User::find($user_id);
-        return view('user.profile')->with('user',$user);
+        $regija = Regija::find($user->regija_id);
+        return view('user.profile')->with(array('user'=>$user,'regija'=>$regija));
     }
     public function destroy(){
         $user_id = auth()->user()->id;
