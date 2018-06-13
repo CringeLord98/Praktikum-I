@@ -88,10 +88,19 @@
                                         <div class="row">
                                                 <div class="col s12 l4">
                                                   <div class="card">
-                                                    <div class="card-image">
+                                                  @if($storitev->u_slika=="noprofile.png")
+                                                  <div class="card-image">
+                                                            <img src="/storage/cover_images/{{ $storitev->u_slika }}"></img>
+                                                            <br>                                
+                                                    <span class="card-title black-text">{{$storitev->name}} {{$storitev->surname}}</span>
+                                                    </div>
+                                                  @else
+                                                  <div class="card-image">
                                                             <img src="/storage/cover_images/{{ $storitev->u_slika }}"></img>
                                                     <span class="card-title">{{$storitev->name}} {{$storitev->surname}}</span>
                                                     </div>
+                                                  @endif
+                                                    
                                                   </div>
                                                 </div>
                                                 <div class="col s12 l8">
