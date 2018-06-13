@@ -61,7 +61,11 @@
                                 <div class="input-field">
                                 <select id="regija" name="regija_id">
                         @foreach($regije as $regija)
-                            <option value="{{$regija->id}}">{{$regija->regija}}</option>
+                        @if($regija->id==$u_regija_id)
+                            <option value="{{$regija->id}}" selected="selected">{{$regija->regija}}</option>
+                        @else
+                                <option value="{{$regija->id}}">{{$regija->regija}}</option>
+                                @endif
                         @endforeach 
                     </select>
                                         <label for="label123">Regija</label>

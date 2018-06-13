@@ -87,7 +87,7 @@ Dostopajte do podatkovne baze na spletnem naslovu (http://localhost/phpmyadmin) 
 
 ![SlikaBaza](https://github.com/Jure4321/Praktikum-I/blob/master/kreiranje_baze.png)
 
-Iz repositorija v mapi "podatkovna baza" prenesite datoteko "mojobrtnik.sql" in jo shranite na željeno mesto.
+Iz repositorija v mapi "podatkovna baza" prenesite datoteko ["mojobrtnik.sql"](https://github.com/Jure4321/Praktikum-I/blob/master/podatkovna%20baza/mojobrtnik.sql) in jo shranite na željeno mesto.
 
 V levem stolpcu izberite kreirano bazo ("mojobrtnik") in izberite "Uvozi" v zgornjem navigacijskem meniju. Datoteko "mojobrtnik.sql", ki ste jo prenesli v prejšnem koraku izberite z pomočjo gumba "Izberite datoteko". Nazadnje še poženete skripto z pomočjo gumba "Izvedi" v spodnjem delu strani.
 
