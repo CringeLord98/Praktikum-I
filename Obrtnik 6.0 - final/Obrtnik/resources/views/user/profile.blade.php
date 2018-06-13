@@ -126,14 +126,17 @@
      
           <div class="row" style="margin-top:5em;">
               
-                <div class="col l4 s12">
+                <div class="col l6 s12">
                   <b>E-Mail:</b><p>{{ Auth::user()->email }}</p>
                 </div>
-                <div class="col l4 s12">
+                <div class="col l6 s12">
                   <b>Telefon:</b><p>{{ Auth::user()->telefon }}</p>
                   </div>
-                  <div class="col l4 s12">
+                  <div class="col l6 s12">
                         <b>Davčna številka:</b><p>{{ Auth::user()->davcna }}</p>
+                      </div>
+                      <div class="col l6 s12">
+                        <b>Regija:</b><p>{{ $regija->regija }}</p>
                       </div>
                   
             </div>
