@@ -31,6 +31,16 @@ odjemalcem portala omogočite komentiranje storitev obrtnikov.
 Da bi lahko uporabniki portala lažje našli ustreznega obrtnika, implementirajte tudi napredno iskanje
 po razpoložljivih obrtnikih.
 Uporabnik naj ima možnost povpraševanja pri izbranem obrtniku.
+
+### Specifikacije
+-	Iskanje obrtnikov
+-	Pošiljanje poizvedb (naročil)
+-	Pregled storitev glede na izbrane kriterije
+-	Predstavitev Obrtnika 
+-	Komentiranje storitev 
+-	Napredno iskanje 
+-	Možnost povpraševanja pri izbranem obrtniku
+
  
 
 ## Verzije in funkcionalnosti
