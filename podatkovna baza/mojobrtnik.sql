@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gostitelj: 127.0.0.1
--- Čas nastanka: 13. jun 2018 ob 11.21
+-- Čas nastanka: 13. jun 2018 ob 11.26
 -- Različica strežnika: 10.1.32-MariaDB
 -- Različica PHP: 7.2.5
 
@@ -60,30 +60,7 @@ INSERT INTO `kategorija` (`id`, `naziv`) VALUES
 (20, 'Vodovodarstvo'),
 (21, 'Vrtnarstvo'),
 (22, 'Vulkanizerstvo'),
-(23, 'Tesarstvo'),
-(24, 'Avtoličarstvo'),
-(25, 'Čiščenje'),
-(26, 'Dimnikarstvo'),
-(27, 'Elektro inštalacije'),
-(28, 'Fasaderstvo'),
-(29, 'Fotografija'),
-(30, 'Frizerstvo'),
-(31, 'Gradbeništvo'),
-(32, 'Kamnoseštvo'),
-(33, 'Kovaštvo'),
-(34, 'Kovinarstvo'),
-(35, 'Kozmetičarstvo'),
-(36, 'Optika'),
-(37, 'Pogrebne storitve'),
-(38, 'Prevozništvo'),
-(39, 'Računovodstvo'),
-(40, 'Steklarstvo'),
-(41, 'Šoferstvo'),
-(42, 'Urarstvo'),
-(43, 'Vodovodarstvo'),
-(44, 'Vrtnarstvo'),
-(45, 'Vulkanizerstvo'),
-(46, 'Tesarstvo');
+(23, 'Tesarstvo');
 
 -- --------------------------------------------------------
 
@@ -149,13 +126,6 @@ CREATE TABLE `narocilo` (
   `storitev_id` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Odloži podatke za tabelo `narocilo`
---
-
-INSERT INTO `narocilo` (`id`, `ime`, `priimek`, `okvirna_cena`, `komentar`, `telefon`, `email`, `datum_zacetka`, `datum_konca`, `created_at`, `updated_at`, `stanje_narocila_id`, `storitev_id`) VALUES
-(2, 'a', 'b', 1111, 'aaa', '031264813', 'aaaa@hotmail.com', '2018-01-01', '2018-12-31', '2018-06-12 09:46:32', '2018-06-12 09:47:02', 3, 1);
-
 -- --------------------------------------------------------
 
 --
@@ -209,19 +179,7 @@ INSERT INTO `regija` (`id`, `regija`) VALUES
 (9, 'Primorsko-Notranjska'),
 (10, 'Obalno-kraška'),
 (11, 'Zasavska'),
-(12, 'Posavska'),
-(13, 'Osrednjeslovenska'),
-(14, 'Podravska'),
-(15, 'Savinjska'),
-(16, 'Pomurska'),
-(17, 'Gorenjska'),
-(18, 'Koroška'),
-(19, 'Goriška'),
-(20, 'Jugo-vzhodna Slovenija'),
-(21, 'Primorsko-Notranjska'),
-(22, 'Obalno-kraška'),
-(23, 'Zasavska'),
-(24, 'Posavska');
+(12, 'Posavska');
 
 -- --------------------------------------------------------
 
@@ -260,13 +218,6 @@ CREATE TABLE `storitev` (
   `kategorija_id` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Odloži podatke za tabelo `storitev`
---
-
-INSERT INTO `storitev` (`id`, `naziv`, `opis`, `slika`, `created_at`, `updated_at`, `user_id`, `kategorija_id`) VALUES
-(1, 'Kaput', 'ejejejje', 'noimage.png', '2018-06-12 09:45:58', '2018-06-12 09:45:58', 1, 1);
-
 -- --------------------------------------------------------
 
 --
@@ -288,13 +239,6 @@ CREATE TABLE `users` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Odloži podatke za tabelo `users`
---
-
-INSERT INTO `users` (`id`, `name`, `email`, `password`, `surname`, `telefon`, `davcna`, `slika`, `regija_id`, `opis`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Luka Gričar', 'luka.lukec10@hotmail.com', '$2y$10$.yu3fncbWhgqp7nbxg4oNe0xxAb48G0XW6Xvdo8jDf6z0IYgE4YLW', 'Gričar', '031264813', '12345678', 'noprofile.png', 1, NULL, 'FPCWLUvO2hadZZ2TKJJnMw9unwQ22uc2u11Z83GtWQOABNm0YyLv75eDUCID', '2018-06-12 09:45:41', '2018-06-12 09:45:41');
 
 --
 -- Indeksi zavrženih tabel
@@ -376,7 +320,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT tabele `kategorija`
 --
 ALTER TABLE `kategorija`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT tabele `komentar`
@@ -394,7 +338,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT tabele `narocilo`
 --
 ALTER TABLE `narocilo`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT tabele `ocena`
@@ -406,7 +350,7 @@ ALTER TABLE `ocena`
 -- AUTO_INCREMENT tabele `regija`
 --
 ALTER TABLE `regija`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT tabele `stanje_narocila`
@@ -418,13 +362,13 @@ ALTER TABLE `stanje_narocila`
 -- AUTO_INCREMENT tabele `storitev`
 --
 ALTER TABLE `storitev`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT tabele `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- Omejitve tabel za povzetek stanja
