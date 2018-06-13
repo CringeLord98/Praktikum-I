@@ -4,6 +4,8 @@
 ### Naslov projekta:
  Moj Obrtnik
  
+ ![alt text](https://github.com/Jure4321/Praktikum-I/blob/master/porocilo/Screenshot_6.png)
+ 
 ### Mentor: Mitja Gradišnik 
 
 ### Kazalo:
