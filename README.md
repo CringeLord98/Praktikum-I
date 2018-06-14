@@ -61,7 +61,7 @@ Za namestitev potrebujete:
 - XAMPP ali drugo podobno orodje
 - Laravel
 
-V direktoriju XAMPP poiščite mapo "htdocs" (default path:C:\xampp\htdocs) in vanj položite celoten direktorij MojObrtnik. V istem direktoriju XAMPP-a poiščite mapo "apache", nato odprite mapo "conf" in nazadnje odprite mapo "extra" (default path:C:\xampp\apache\conf\extra). Odprite datoteko "httpd-vhosts.conf" in dodajte: 
+V direktoriju XAMPP poiščite mapo "htdocs" (default path:C:\xampp\htdocs) in vanj položite celoten projekt [Obrtnik](https://github.com/Jure4321/Praktikum-I/tree/master/Obrtnik%20-%20finalna%20verzija/Obrtnik). V istem direktoriju XAMPP-a poiščite mapo "apache", nato odprite mapo "conf" in nazadnje odprite mapo "extra" (default path:C:\xampp\apache\conf\extra). Odprite datoteko "httpd-vhosts.conf" in dodajte: 
 
 ```
 <VirtualHost *:80>
