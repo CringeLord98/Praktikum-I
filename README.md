@@ -167,7 +167,7 @@ Vaša spletna stran je na voljo za uporabo.
 
 ## Poročilo
 
-Tu imate na voljo celotno [poročilo](https://github.com/Jure4321/Praktikum-I/blob/master/porocilo/Praktikum%20I.pdf) v katerem so opisani projekt, specifikacije, uporabljena orodja, podatkovna baza, uporabniški vmesnik, komponente, varnost in testiranje.
+Tu imate na voljo celotno poročilo [(pdf)](https://github.com/Jure4321/Praktikum-I/blob/master/porocilo/Praktikum%20I.pdf) [(word dokument)](https://github.com/Jure4321/Praktikum-I/blob/master/porocilo/Praktikum%20I.docx) v katerem so opisani projekt, specifikacije, uporabljena orodja, podatkovna baza, uporabniški vmesnik, komponente, varnost in testiranje.
 
 ## Avtorji
 
